@@ -3,17 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.2.3",
+    "dompurify": "^2.4.3",
+    "framer-motion": "^8.5.5",
+    "motion": "^10.15.5",
     "react": "^18.2.0",
+    "react-confirm-alert": "^3.0.6",
+    "react-data-export": "^0.6.0",
     "react-dom": "^18.2.0",
+    "react-export-table-to-excel": "^1.0.6",
     "react-icons": "^4.7.1",
     "react-loader-spinner": "^5.3.4",
+    "react-paginate": "^8.1.4",
+    "react-quill": "^2.0.0",
+    "react-redux": "^8.0.5",
     "react-router-dom": "^6.6.2",
     "react-scripts": "5.0.1",
     "react-toastify": "^9.1.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -41,5 +53,6 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.2.4"
-  }
+  },
+  "proxy": "http://localhost:4500/"
 }
